@@ -4,15 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .container {
   height: 100vh;
-  background-color: red;
+  /* background-color: red; */
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   font-size: 25px;
-  color: black;
+  color: #77dd77;
   margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #77dd77;
+  border-width: 0;
+  border-radius: 5px;
 }
 
